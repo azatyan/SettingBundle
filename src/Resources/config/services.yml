@@ -1,0 +1,16 @@
+parameters:
+
+services:
+    app_setting.admin.setting:
+        class: SettingBundle\Admin\SettingAdmin
+        arguments: [~, SettingBundle\Entity\Setting, SonataAdminBundle:CRUD]
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: Administration, label: Settings }
+    app.twig.acme_extension:
+        class: SettingBundle\Twig\SettingExtension
+        arguments: ["@service_container"]
+        tags:
+            - { name: twig.extension }
+    settings:
+        class : SettingBundle\Service\Setting
+        arguments: ["@service_container"]
