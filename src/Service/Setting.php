@@ -8,7 +8,7 @@
  * @copyright Symfony.AM - 2016
  */
 
-namespace SettingBundle\Service;
+namespace src\SettingBundle\Service;
 
 use Symfony\Component\Config\Definition\Exception\InvalidConfigurationException;
 use Symfony\Component\DependencyInjection\Container;

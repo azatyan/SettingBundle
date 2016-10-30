@@ -8,7 +8,7 @@
  * @copyright Symfony.AM - 2016
  */
 
-namespace SettingBundle;
+namespace src\SettingBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

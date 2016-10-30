@@ -8,7 +8,7 @@
  * @copyright Symfony.AM - 2016
  */
 
-namespace SettingBundle\Admin;
+namespace src\SettingBundle\Admin;
 
 use Sonata\AdminBundle\Admin\AbstractAdmin;
 use Sonata\AdminBundle\Datagrid\DatagridMapper;

@@ -8,7 +8,7 @@
  * @copyright Symfony.AM - 2016
  */
 
-namespace SettingBundle\DependencyInjection;
+namespace src\SettingBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

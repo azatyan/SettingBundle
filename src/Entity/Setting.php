@@ -8,7 +8,7 @@
  * @copyright Symfony.AM - 2016
  */
 
-namespace SettingBundle\Entity;
+namespace src\SettingBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 

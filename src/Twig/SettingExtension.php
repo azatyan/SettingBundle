@@ -8,7 +8,7 @@
  * @copyright Symfony.AM - 2016
  */
 
-namespace SettingBundle\Twig;
+namespace src\SettingBundle\Twig;
 
 use Symfony\Component\DependencyInjection\Container;
 
