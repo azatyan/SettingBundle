@@ -15,7 +15,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * Setting.
  *
- * @ORM\Table("blog_settings")
+ * @ORM\Table("settings")
  * @ORM\Entity
  */
 class Setting
